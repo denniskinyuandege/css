@@ -1,12 +1,308 @@
-body{
-    background-color: blue;
-    padding: 50px;
-}
-    .whitetext{
-        color: white;    
+
+    /*start of div.html styles*/
+    #body{
+        padding: 0;
+        margin: 0
     }
- .redtext{
-        color: red;
-        
+    #topbar {
+        height: 40px;
+        background-color: white;  
+    }
+    a:hover {
+        background-color: crimson;
+
+    }
+    #topbar #left{
+        width: 60%;
+        float: left;
+        height:100%;
+        font-size :30px;
+        color: blue;
+    }
+    #topbar b{
+        color:blue;
     }
     
+    #topbar #right{
+        padding:0%;
+        float: right;
+        margin:10px;
+    }
+    #topbar a{
+        color:blue;
+        float:right;
+        font-size: 20px;
+        text-decoration: none;
+        margin:5px;
+
+      }
+    #body {
+        background-image: url("tech.jpeg");
+        background-size: cover;
+        height:800px;
+        padding:0px;
+    }
+
+/* Create three unequal columns that floats next to each other */
+#column {
+    float: left;
+    padding: 10px;
+    margin:30px;
+  }
+  /* Left and right column */
+  .column .side{
+    width: 25%;
+    margin:30px;
+  }
+  #column p{
+      color:white;
+  } 
+  #bottombar{
+      height: 100px;
+      background-color: black;
+      position: fixed;
+      width: 100%;
+      bottom:6%;
+      color:white;
+      left:0;
+
+  }
+/* Style the footer */
+#footer { 
+    color:blue;
+    background-color: #f1f1f1;
+    position:fixed;
+    bottom: 0;
+    text-align: center;
+    height: 6%;
+    left:0;
+    width: 100%;
+}
+/*About*/
+#one{
+    background-color:red;
+    padding:0;
+    margin:0;
+}
+  
+#onebar {
+    height:50px;
+    background-color: white;  
+}
+
+a:hover {
+    background-color:lime;
+
+}
+#onebar #left{
+    width: 60%;
+    float: left;
+    height:100%;
+    font-size :30px;
+    color: blue;
+}
+    
+#onebar #right{
+    color:red;
+        padding:0%;
+        float: right;
+        margin:10px;
+    }
+    
+    #onebar a{
+        color:blue;
+        float:right;
+        font-size: 20px;
+        text-decoration: none;
+        margin:5px;
+
+      }
+   
+      #one{
+        background-image: url("it.jpg");
+        background-size: cover;
+        height:800px;
+        padding:0px;
+    }
+
+    #column p{
+        color:white;
+    }
+
+/*Sign in*/
+#two{
+    background-color:purple;
+    padding:0;
+    margin:0;
+}
+  
+#twobar {
+    height:50px;
+    background-color: white;  
+    float:center;
+}
+
+a:hover {
+    background-color:purple;
+
+}
+#twobar #left{
+    width: 40%;
+    float: left;
+    height:100%;
+    font-size :30px;
+    color: blue;
+}
+    
+#twobar #right{
+        padding:0%;
+        float: right;
+        margin:20px;
+    }
+    
+    #twobar a{
+        color:blue;
+        float:right;
+        font-size: 20px;
+        text-decoration: none;
+        margin:5px;
+        
+      }
+   
+      #twobar form{
+        color:red;
+        float:right;
+        font-size: 20px;
+        text-decoration: none;
+        margin:100px;
+       
+        
+
+      }
+      #two{
+        background-image: url("sign.jpg");
+        background-size: cover;
+        height:800px;
+        padding:0px;
+    }
+
+    #column {
+        color:white;
+    }
+
+
+/*Support*/
+#three{
+    background-color:whitesmoke;
+    padding:0;
+    margin:0;
+}
+  
+#threebar {
+    height:50px;
+    background-color: white;  
+    float:center;
+}
+
+a:hover {
+    background-color:purple;
+
+}
+#threebar #left{
+    width: 40%;
+    float: left;
+    height:100%;
+    font-size :30px;
+    color: blue;
+}
+    
+#threebar #right{
+        padding:0%;
+        float: right;
+        margin:20px;
+    }
+    
+    #threebar a{
+        color:blue;
+        float:right;
+        font-size: 20px;
+        text-decoration: none;
+        margin:5px;
+        
+      }
+   
+      #threebar form{
+        color:blue;
+        float:right;
+        font-size: 30px;
+        text-decoration: none;
+        margin:110px;
+      }
+      #three{
+        background-image: url("support.jpg");
+        background-size: cover;
+        height:800px;
+        padding:0px;
+    }
+
+    #column {
+        color:white;
+    }
+
+/*Services*/
+#four{
+    background-color:whitesmoke;
+    padding:0;
+    margin:0;
+}
+  
+#fourbar {
+    height:50px;
+    background-color: white;  
+    float:center;
+}
+
+a:hover {
+    background-color:purple;
+
+}
+#fourbar #left{
+    width: 30%;
+    float: left;
+    height:100%;
+    font-size :30px;
+    color: blue;
+}
+    
+#fourbar #right{
+        padding:0%;
+        float: right;
+        margin:0px;
+    }
+    
+    #fourbar a{
+        color:blue;
+        float:0;
+        font-size: 20px;
+        text-decoration: none;
+        margin:5px;
+        
+      }
+   
+      #fourbar form{
+        color:blue;
+        float:right;
+        font-size: 20px;
+        text-decoration: none;
+        margin:0px;
+      }
+      #four{
+        background-image: url("services.jpg");
+        background-size: cover;
+        height:800px;
+        padding:0px;
+    }
+
+    #column {
+        color:white;
+    }
